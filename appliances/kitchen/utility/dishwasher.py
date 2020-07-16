@@ -1,9 +1,9 @@
-from appliance import Appliance
+# from appliance import Appliance
 
-def DishWasher(Appliance):
+class DishWasher:
 
     def __init__(self, color):
-        super.__init__(color)
+        self.color = color
 
-    def wash_dishes():
+    def wash_dishes(self):
         print("grind, grind, clunk. Time to call the repair person")

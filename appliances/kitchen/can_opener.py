@@ -1,9 +1,9 @@
-from appliances import Appliance
+# from appliances import Appliance
 
-def CanOpener(Appliance):
+class CanOpener:
 
     def __init__(self, color):
-        super.__init__(color)
+        self.color = color
 
-    def open_can():
+    def open_can(self):
         print("Tuna smells bad")
